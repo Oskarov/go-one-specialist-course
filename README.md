@@ -29,4 +29,5 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 * LEC2 - инициализация, присваивание, вывод переменных - fmt.print
 * LEC3 - ввод и вывод значений - fmt.scan
 * LEC4 - типы данных - unsafe.SizeOf
+* LEC5 - условный оператор
 

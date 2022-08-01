@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"strings"
+	"unicode/utf8"
 	"unsafe"
 )
 
@@ -45,5 +47,20 @@ func main() {
 	c2 := 12 + 32i
 	fmt.Println(c1 + c2)
 	fmt.Println(c1 * c2)
+
+	//strings
+	name := "Fedor"
+	lastname := "Tritin" + "-" + "Watsky"
+	fmt.Println(name, lastname)
+	//Длинна строки 5 для fedor, 8 для Федя
+	fmt.Println(len(name))
+	//Длинна строки для utf8 символов
+	fmt.Println(utf8.RuneCountInString(name))
+	//Rune - один utf символ
+	//содержится ли строка в подстроке
+	fmt.Println(strings.Contains("abcdefg", "abc"))
+	//rune -> alias int32
+	var sampleRune rune
+	fmt.Println(sampleRune)
 
 }
