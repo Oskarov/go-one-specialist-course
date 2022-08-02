@@ -30,4 +30,6 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 * LEC3 - ввод и вывод значений - fmt.scan
 * LEC4 - типы данных - unsafe.SizeOf
 * LEC5 - условный оператор
+* LEC6 - циклы
+* LEC7 - switch
 
