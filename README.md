@@ -1,6 +1,7 @@
 # Go one specialist course
 
 ### course to learn go language basements
+
 ### курс обучения основам языка go
 
 ---
@@ -34,4 +35,6 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 * LEC7 - switch
 * LEC8 - массивы
 * LEC9 - срезы - slice
+* LEC10 - работа со строками
+* LEC11 - map
 
