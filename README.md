@@ -32,4 +32,6 @@ This project is not a demonstration of optimal solutions and is aimed at studyin
 * LEC5 - условный оператор
 * LEC6 - циклы
 * LEC7 - switch
+* LEC8 - массивы
+* LEC9 - срезы - slice
 
